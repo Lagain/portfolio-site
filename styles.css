@@ -1,0 +1,46 @@
+* {
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 77, 91);
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 60px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 0px;
+}
+
+.container {
+    background: peachpuff;
+    padding: 8px;
+    border: 4px white;
+    gap: 8px;
+    display: flex;
+}
+
+.item {
+    background: white;
+    border: 4px black;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
+    text-align: center;
+}
+
+p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 19px;
+    letter-spacing: 0.6px;
+    word-spacing: 3.6px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
