@@ -4,12 +4,13 @@
 
 
 .header {
-    text-align: center;
-    font-size: 26px;
-    color: rgb(255, 255, 255);
+    font-size: 40px;
+    color: #ffffff;
 }
 
-
+a {
+    color: #ffffff;
+}
 p {
     font-family: "Courier New", Courier, monospace;
     font-size: 19px;
@@ -28,7 +29,7 @@ p {
     border-radius: 200px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: 5px solid #404d5b;
+    border: 1px solid #404d5b;
 }
 
 img {
