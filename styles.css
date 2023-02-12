@@ -1,31 +1,20 @@
 * {
-    color: rgb(255, 255, 255);
-    background-color: rgb(64, 77, 91);
-    margin: auto;
+    font-family: "Courier New", Courier, monospace;
 }
+
 
 .header {
     text-align: center;
-    font-size: 60px;
-    text-shadow: rgb(0, 0, 0) 2px 2px 0px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
 }
 
-
-
-.sidebar {
-    background: white;
-    border: 4px black;
-    height: 48px;
-    flex: 1;
-    padding: 4px;
-    text-align: left;
-}
 
 p {
     font-family: "Courier New", Courier, monospace;
     font-size: 19px;
     letter-spacing: 0.6px;
-    word-spacing: 3.6px;
+    word-spacing: 3.0px;
     color: #000000;
     font-weight: normal;
     text-decoration: none;
@@ -34,11 +23,18 @@ p {
     text-transform: none;
 }
 
-img {
-    height: auto;
-    width: 500px;
+.avatar {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #404d5b;
 }
 
+img {
+    height: auto;
+    width: 215px
+}
 
 .row {
     display: flex;
@@ -51,10 +47,15 @@ img {
 
 .left {
     width: 10%;
+    font-size: 16px;
 }
 
 .right {
     width: 90%;
+    color:#000000;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 60px;
 }
 
 .row:after {
