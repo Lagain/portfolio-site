@@ -10,21 +10,15 @@
     text-shadow: rgb(0, 0, 0) 2px 2px 0px;
 }
 
-.container {
-    background: peachpuff;
-    padding: 8px;
-    border: 4px white;
-    gap: 8px;
-    display: flex;
-}
 
-.item {
+
+.sidebar {
     background: white;
     border: 4px black;
     height: 48px;
     flex: 1;
     padding: 4px;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -44,3 +38,27 @@ img {
     height: auto;
     width: 500px;
 }
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 10%;
+}
+
+.right {
+    width: 90%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
