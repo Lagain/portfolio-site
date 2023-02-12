@@ -33,7 +33,7 @@ p {
 
 img {
     height: auto;
-    width: 215px
+    width: 200px
 }
 
 .row {
@@ -55,6 +55,10 @@ img {
     color:#000000;
     background-color: #ffffff;
     font-size: 20px;
+    padding: 100x;
+}
+
+.resume-content {
     padding: 60px;
 }
 
